@@ -85,3 +85,23 @@
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
+#noob__border__left {
+  border-left: 7px solid;
+  border-radius: 20px;
+  border-image: linear-gradient(red, blue);
+  border-image-slice: 1;
+}
+
+#pro__border__left {
+  border-radius: 20px;
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(47, 0, 255), rgb(229, 255, 0));
+  border-image-slice: 1;
+}
+
+/* footer css  */
+
+footer p {
+  text-align: center;
+}
