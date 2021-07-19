@@ -2,4 +2,86 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#header__top {
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex__area {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.half__width {
+  width: 45%;
+  margin: 0 2%;
+}
+
+.half__width h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.half__width h5 {
+  color: cadetblue;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.half__width p {
+  color: rgb(45, 49, 49);
+  text-align: justify;
+}
+
+.half__width img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.brand__color {
+  color: rgb(187, 255, 0);
+}
+
+.brand__button {
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-weight: 800;
+  background-image: linear-gradient(60deg, red, coral);
+  color: aliceblue;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* about me section css  */
+
+#about__me {
+  background-image: url("../images/about-me.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* experience section css  */
+
+#experiences__area {
+  background-image: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#experiences__area h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.experiences__card {
+  box-shadow: 12px -2px 20px gray;
+  border-radius: 20px;
+  padding: 20px 20px 20px 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
